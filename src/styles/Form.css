@@ -1,0 +1,11 @@
+form {
+  margin: 25px auto;
+  padding: 25px;
+  background-color: #eee;
+  width: 300px;
+}
+
+form input {
+  padding: 2px 5px;
+}
+/*# sourceMappingURL=Form.css.map */
