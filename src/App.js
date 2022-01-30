@@ -11,7 +11,7 @@ class App extends React.Component {
   }
   render(){
     return ( <div className = "App" >
-      <div className="header">{this.props.title}</div>
+      <div className="header">{this.props.title}</div>{this.props.description}
       <Form  onSubmit={this.addNewProfile}/>
         <CardList profiles={this.state.profiles}/>
    </div>
